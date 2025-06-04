@@ -1,16 +1,29 @@
-.root {
+/* Estilo base */
+body {
+    background-image: url("./sunset-samurai-martial-arts-fighters-1600x1067-nature-sunsets-hd-art-wallpaper-preview.jpg");
+
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
-    background-color: #fff;
 }
 
+/* Fondo de imagen para todo el cuerpo excepto el header */
+.root {
+   
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* Encabezado */
 .headergim {
     background-color: bisque;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 1rem 5%;
+    position: relative;
+    z-index: 2;
 }
 
 .logo {
@@ -26,9 +39,10 @@ h1 {
     color: #333;
 }
 
+/* Introducción */
 .intro {
     padding: 2rem 10%;
-    background-color: #f8f4ec;
+    background-color: rgba(248, 244, 236, 0.9); /* Semitransparente para mejor legibilidad */
     color: #333;
 }
 
@@ -44,9 +58,10 @@ h1 {
     margin-bottom: 1rem;
 }
 
+/* Secciones de horarios */
 .horarios {
     padding: 2rem 10%;
-    background-color: #fffaf4;
+    background-color: rgba(255, 250, 244, 0.9); /* Semitransparente también */
     color: #333;
 }
 
