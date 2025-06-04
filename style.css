@@ -1,0 +1,80 @@
+.root {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+}
+
+.headergim {
+    background-color: bisque;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 5%;
+}
+
+.logo {
+    margin-left: 0;
+}
+
+.menu {
+    margin-right: 0;
+}
+
+h1 {
+    font-size: 1.5em;
+    color: #333;
+}
+
+.intro {
+    padding: 2rem 10%;
+    background-color: #f8f4ec;
+    color: #333;
+}
+
+.intro-text h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #a0522d;
+}
+
+.intro-text p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+}
+
+.horarios {
+    padding: 2rem 10%;
+    background-color: #fffaf4;
+    color: #333;
+}
+
+.horarios h2 {
+    font-size: 2rem;
+    color: #a0522d;
+    margin-bottom: 1rem;
+}
+
+.tabla-horarios {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 1rem;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.tabla-horarios th,
+.tabla-horarios td {
+    padding: 1rem;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+.tabla-horarios thead {
+    background-color: bisque;
+    color: #333;
+}
+
+.tabla-horarios tr:nth-child(even) {
+    background-color: #fdf7f0;
+}
