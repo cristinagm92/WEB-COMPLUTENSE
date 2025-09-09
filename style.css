@@ -1,7 +1,6 @@
 /* Estilo base */
 body {
     background-image: url("./sunset-samurai-martial-arts-fighters-1600x1067-nature-sunsets-hd-art-wallpaper-preview.jpg");
-
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
@@ -9,7 +8,6 @@ body {
 
 /* Fondo de imagen para todo el cuerpo excepto el header */
 .root {
-   
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -61,13 +59,13 @@ h1 {
 /* Secciones de horarios */
 .horarios {
     padding: 2rem 10%;
-     /* Semitransparente también */
+    
     color: #7476b6;
 }
 
 .horarios h2 {
     font-size: 2rem;
-    color: #a0522d;
+    color: #aba29d;
     margin-bottom: 1rem;
 }
 
@@ -83,13 +81,36 @@ h1 {
     padding: 1rem;
     border: 1px solid #ddd;
     text-align: center;
+
+    /* Resaltado del texto para buena visibilidad sobre fondo */
+    font-weight: bold;
+    color: white;
+    text-shadow:
+        -1px -1px 0 #000,
+         1px -1px 0 #000,
+        -1px  1px 0 #000,
+         1px  1px 0 #000;
 }
 
 .tabla-horarios thead {
-    background-color: bisque;
+    
     color: #333;
 }
 
 .tabla-horarios tr:nth-child(even) {
-    background-color: #fdf7f0;
+    
+}
+
+/* Ocultar el contacto al inicio */
+.info-contacto {
+  display: none;
+  background: #f4f4f4;
+  padding: 10px;
+  text-align: center;
+  transition: all 0.3s ease-in-out;
+}
+
+/* Cuando está activo, se muestra */
+.info-contacto.active {
+  display: block;
 }
