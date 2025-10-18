@@ -240,3 +240,14 @@ h1 {
   color: #f5d6a1;                /* color cálido al pasar el ratón */
   text-decoration-thickness: 2px; /* subrayado más grueso en hover */
 }
+.enlace-judo { display: inline-block;         /* permite aplicar márgenes */
+  margin: 20px 0 0 40px;         /* separa del borde superior e izquierdo */
+  color: white;                  /* texto blanco */
+  text-decoration: underline;    /* subrayado */
+  font-weight: 700;              /* letra más gruesa */
+  font-size: 2rem;             /* tamaño un poco mayor */
+  text-underline-offset: 4px;    /* separa el subrayado del texto para mejor legibilidad */
+}
+.enlace-judo:hover {
+  color: #f5d6a1;                /* color cálido al pasar el ratón */
+  text-decoration-thickness: 2px;}
