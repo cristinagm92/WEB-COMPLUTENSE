@@ -1,0 +1,65 @@
+body {
+  font-family: "Segoe UI", Roboto, sans-serif;
+  background-color: #f7f3ed;
+  color: #333;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+.yoga-section {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  text-align: justify;
+}
+
+h1 {
+  text-align: center;
+  color: #c2784c;
+  margin-bottom: 20px;
+}
+
+.cta {
+  text-align: center;
+  font-weight: 500;
+  color: #a85d32;
+  margin-top: 20px;
+}
+
+.divider {
+  border: none;
+  border-top: 1px solid #ddd;
+  margin: 40px 0 30px;
+}
+
+.mantra-box {
+  text-align: center;
+}
+
+.mantra-invite {
+  font-style: italic;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.mantra-btn {
+  background: none;
+  border: none;
+  font-size: 45px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.mantra-btn:hover {
+  transform: scale(1.15) rotate(8deg);
+}
+
+.mantra-text {
+  margin-top: 15px;
+  font-size: 1.1rem;
+  color: #444;
+  opacity: 0;
+  transition: opacity 0.6s ease;
+  min-height: 40px;
+}
